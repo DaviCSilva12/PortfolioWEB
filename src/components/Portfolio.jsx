@@ -15,14 +15,10 @@ import {
   Layout,
   Boxes,
 } from "lucide-react";
-// A lucide-react removeu os ícones de marca (GitHub, LinkedIn, Instagram) na v1.0.
-// Este pacote separado mantém os logos oficiais das marcas:
+
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
-// ============================================================
-// CONFIGURAÇÃO — edite estes dados com as suas informações reais.
-// Procure por "seu-usuario" / "seuemail" / "Sua Universidade" etc.
-// ============================================================
+
 const PROFILE = {
   name: "Davi Campanaro",
   handle: "Davicsdev",
